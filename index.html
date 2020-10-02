@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/7140dcb2d4.js" crossorigin="anonymous"></script>
+    <title>Bootstrap ejemeplo</title>
+    <style type=text/css>
+    body{
+        position:relative;
+    }
+    #inlineFormInputGroup{
+        width: 280px;
+    }
+    .jumbotron{
+        text-align: center;
+    }
+    .input-group-prepend{
+        display:flex;
+        justify-content: center;
+    
+    }
+    #presentación{
+        text-align: center;
+    }
+    .contenedor{
+       display: flex; 
+       justify-content: center;
+       margin-top: 50px;
+       margin-bottom: 50px;
+    }
+    .card{
+        margin-left: 7px;
+    }
+    #final{
+        background-color: orange;
+        text-align: center;
+        padding-bottom: 100px;  
+        padding-top:50px;
+      }
+ i{
+   color:black;
+   display:flex;
+   float:left;
+   margin:5px;
+ }
+    </style>
+    
+    
+</head>
+  <body data-spy="scroll" data-target="#navbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+            <a class="navbar-brand" href="#">Mi app</a> 
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link active" href="#jumbotron">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#presentación">Acerca de</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#final">Descarga la app</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="email" placeholder="Email" aria-label="Email">
+            <input class="form-control mr-sm-2" type="password" placeholder="Password" aria-label="Password">
+            <button class="btn btn-primary my-2 my-sm-0" type="submit">Login</button>
+          </form>
+        </div>
+      </nav>
+
+      <div class="jumbotron">
+        <h1 class="display-4">¡Consique tu objetivo!</h1>
+        <p class="lead">Esta es la razon por la que deberías descargarte esta fantástica app!</p>
+        <hr class="my-4">
+        <p>¿Deseas conocer más? ¡Suscribite a nuestra lista de correo!</p>
+        <div class="input-group-prepend">
+            <div class="input-group-text">@</div>
+          <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+        
+        <button type="submit" class="btn btn-primary mb-2" id="botonSuscripción">Suscribite</button>
+      </div>
+    </div>
+    <div id="presentación">
+    <h1>Porque esta app es increible</h1>
+    <h5>Resumen, otra vez, porque esta app es fantástica</h5>
+</div>
+<div class="contenedor">
+<div class="card" style="width: 18rem;">
+    <img src="paisaje.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <i class="fas fa-tree"></i>
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="paisaje.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <i class="fas fa-binoculars"></i>
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="paisaje.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <i class="fas fa-campground"></i>
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+</div>
+
+    <div id="final">
+    <h3>Descarga la app</h3>
+    <h5>Descarga la app y consigue tus objetivos</h5>
+    <img src="playstore.png" width="200px" height="105px">
+    <img src="unnamed.png" width="200px">
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
